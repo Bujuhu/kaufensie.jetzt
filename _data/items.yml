@@ -1,0 +1,32 @@
+#List of Items displayed on the Website
+
+  - title: Ein Auto!
+    img: auto.png
+    link: http://youtu.be/SBs455jwb8w 
+
+  - title: Ein Stein!
+    img: nachtelfirokese.jpg
+    link: http://www.amazon.de/dp/B0044S3CEK
+
+  - title: Ein Gartengerät!
+    img: getrocknetesgraß.png
+    link: http://youtu.be/esAJuVTuuF8
+
+  - title: Gute Musik!
+    img: airhorn.png
+    link: http://youtu.be/61UfGg6sf8I
+  - title: Kultur!
+    img: want.png
+    link: http://youtu.be/COGFDNT4vyc
+
+  - title: Bekleidung!
+    img: oida.jpg
+    link: http://youtu.be/jTTeGEwzjNE
+
+  - title: Ein Spiel!
+    img: heinrich.jpg
+    link: http://www.amazon.de/dp/B003SL0IY6
+
+  - title: Technologie!
+    img: optimusprime.png
+    link: http://youtu.be/Rrh_EwFaZ7I

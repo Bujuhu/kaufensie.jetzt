@@ -1,0 +1,48 @@
+/**
+ * Page content
+ */
+.page-content {
+    background-color: #fdfdfd;
+    padding: $spacing-unit 0;
+}
+
+
+/**
+ * Items
+ */
+
+$item-border: solid #ddd 1pt;
+
+.item {
+    cursor: pointer;
+    transition: all .25s ease;
+    float: left;
+    border: $item-border;
+    margin: $spacing-unit/2;
+    width: 180pt;
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+
+    .item-img {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        background-size: cover;
+    }
+    
+    .item-footer {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        padding: 5pt;
+        background-color: #eee;
+        border-top: $item-border;
+    }
+
+    &:hover {
+        border-color: $accent-color;
+    }
+
+}

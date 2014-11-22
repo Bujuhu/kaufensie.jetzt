@@ -1,0 +1,7 @@
+# Site settings
+title: Kommen Sie, kaufen Sie!
+email: hostmaster@kaufensie.jetzt
+github_username: Bujuhu
+
+# Build settings
+markdown: kramdown

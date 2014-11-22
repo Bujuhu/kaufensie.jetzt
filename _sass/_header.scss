@@ -1,0 +1,36 @@
+/**
+* Header
+*/
+
+.header {
+    height: 56px;
+    background-color: $main-color;
+    a, a:visited{
+        color: #fff;
+        line-height: 56px;
+        letter-spacing: -1px;
+        margin-bottom: 0;
+    }
+}
+
+.header-title {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    text-align: center;
+    font-size: 1.4em;
+}
+.header-links {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 1.2em;
+    background-color: inherit;
+
+    li {
+        float: left;
+        list-style: none;
+        margin: 0 $spacing-unit;
+
+    } 
+}
