@@ -14,6 +14,7 @@
 $item-border: solid #ddd 1pt;
 
 .item {
+    display: block;
     cursor: pointer;
     transition: all .25s ease;
     float: left;
@@ -33,6 +34,7 @@ $item-border: solid #ddd 1pt;
     }
     
     .item-footer {
+        display: block;
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;

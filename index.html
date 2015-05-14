@@ -3,12 +3,11 @@ layout: default
 ---
 <h1> {{ site.title }}</h1>
 {% for item in site.data.items %}
-  <div class="item">
-    <h2> {{ item.title }} </h2>
-    <div class="item-img" onclick="location.href'{{ item.link }}';" style="background-image: url(assets/img/{{ item.img }})" ></div>
-    <div class="item-footer">
-      <a href="{{ item.link }}">{{ item.link }}</a>
-    </div>
-  </div>
+    <a class="item" href="{{ item.link }}">
+        <h2> {{ item.title }} </h2>
+        <span class="item-img" onclick="location.href'{{ item.link }}';" style="background-image: url(assets/img/{{ item.img }})" ></span>
+        <span class="item-footer">
+            <span>{{ item.link }}</span>
+        </span>
+    </a>
 {% endfor %}
-<script language="javascript" type="text/javascript" src="/assets/js/index.js"></script>
