@@ -25,6 +25,9 @@ $item-border: solid #ddd 1pt;
     text-align: center;
     overflow: hidden;
 
+    .item-title {
+      color: #000;
+    }
     .item-img {
         display: inline-block;
         width: 100px;
@@ -32,7 +35,7 @@ $item-border: solid #ddd 1pt;
         border-radius: 100%;
         background-size: cover;
     }
-    
+
     .item-footer {
         display: block;
         overflow: hidden;
@@ -44,6 +47,7 @@ $item-border: solid #ddd 1pt;
     }
 
     &:hover {
+        text-decoration: none;
         border-color: $accent-color;
     }
 
