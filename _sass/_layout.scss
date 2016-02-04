@@ -14,7 +14,7 @@
 $item-border: solid #ddd 1pt;
 
 .category {
-  width: 500px;
+  max-width: 500px;
   float: left;
 }
 .item {
@@ -22,8 +22,7 @@ $item-border: solid #ddd 1pt;
     cursor: pointer;
     transition: all .25s ease;
     border: $item-border;
-    margin-right: $spacing-unit;
-    margin-bottom: $spacing-unit;
+    margin: $spacing-unit/2;
     width: 200px;
     border-radius: 10px;
     text-align: center;

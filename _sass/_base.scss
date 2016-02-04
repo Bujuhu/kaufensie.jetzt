@@ -92,6 +92,7 @@ a {
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
     @extend %clearfix;
+    overflow: hidden;
 
     @include media-query($on-laptop) {
         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
@@ -104,7 +105,7 @@ a {
 /**
  * Clearfix
  */
- 
+
 %clearfix {
 
     &:after {
