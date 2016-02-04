@@ -2,12 +2,17 @@
 layout: default
 ---
 <h1> {{ site.title }}</h1>
-{% for item in site.data.items %}
-    <a class="item" href="{{ item.link }}">
-        <h2 class="item-title"> {{ item.title }} </h2>
-        <span class="item-img" onclick="location.href'{{ item.link }}';" style="background-image: url(assets/img/{{ item.img }})" ></span>
-        <span class="item-footer">
-            <span>{{ item.link }}</span>
-        </span>
-    </a>
+{% for category in site.data.categories %}
+  <div class="category">
+    <h2> {{ category.label }} </h2>
+    {% for item in category.items %}
+        <a class="item" href="{{ item.link }}">
+            <h2 class="item-title"> {{ item.title }}! </h2>
+            <span class="item-img" onclick="location.href'{{ item.link }}';" style="background-image: url(assets/img/{{ item.img }})" ></span>
+            <span class="item-footer">
+                <span>{{ item.link }}</span>
+            </span>
+        </a>
+    {% endfor %}
+  </div>
 {% endfor %}
