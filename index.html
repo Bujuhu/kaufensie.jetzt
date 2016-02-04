@@ -6,7 +6,7 @@ layout: default
   <div class="category">
     <h2> {{ category.label }} </h2>
     {% for item in category.items %}
-        <a class="item" href="{{ item.link }}">
+        <a class="item" href="{{ item.link }}" {% if item.id %}id="{{ item.id }}"{% endif %}>
             <h2 class="item-title"> {{ item.title }}! </h2>
             <span class="item-img" onclick="location.href'{{ item.link }}';" style="background-image: url(assets/img/{{ item.img }})" ></span>
             <span class="item-footer">

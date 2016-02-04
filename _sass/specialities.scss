@@ -1,0 +1,23 @@
+#magix
+{
+  overflow: visible;
+
+  .item-title {
+    opacity: 0.1;
+  }
+    &:hover .item-title {
+      opacity: 1;
+      color: #f0f;
+    }
+}
+#mall
+{
+  background-color: #000;
+
+  .item-title {
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-weight: bold;
+    color: #fff;
+  }
+}
