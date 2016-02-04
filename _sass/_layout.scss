@@ -13,17 +13,13 @@
 
 $item-border: solid #ddd 1pt;
 
-.category {
-  max-width: 500px;
-  float: left;
-}
 .item {
+    width: calc(100% - 25px);
     display: inline-block;
     cursor: pointer;
     transition: all .25s ease;
     border: $item-border;
     margin: $spacing-unit/2;
-    width: 200px;
     border-radius: 10px;
     text-align: center;
     overflow: hidden;
@@ -56,4 +52,13 @@ $item-border: solid #ddd 1pt;
         border-color: $accent-color;
     }
 
+}
+@media (min-width: 500px) {
+    .category {
+      width: 500px;
+      float: left;
+    }
+      .item {
+        width: 200px;
+      }
 }

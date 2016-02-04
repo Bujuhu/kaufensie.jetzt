@@ -25,7 +25,8 @@
   }
 }
 .header-links {
-        float: right;
+        text-align: center;
+        overflow: scroll;
         font-size: 1.2em;
         background-color: inherit;
         ul {
@@ -39,16 +40,30 @@
         }
     }
 .badge {
-  position: absolute;
-  top: 0;
-  left: -50px;
-  background-color: #ff0;
-  padding: 3px 50px;
-  -webkit-transform: rotate(-40deg);
-  -ms-transform: rotate(-40deg);
-  -o-transform: rotate(-40deg);
-  transform: rotate(-40deg);
-  width: 180px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);;
+  text-align: center;
+  background-color: #FFD000;
+  padding: 3px 0;
+}
+@media(min-width: 500px) {
+  .header-links {
+    overflow: hidden;
+    float: right;
+  }
 
+
+  .badge {
+
+    position: absolute;
+    top: 25px;
+    left: -60px;
+
+    padding: 3px 50px;
+    -webkit-transform: rotate(-40deg);
+    -ms-transform: rotate(-40deg);
+    -o-transform: rotate(-40deg);
+    transform: rotate(-40deg);
+    width: 150px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);;
+
+  }
 }
