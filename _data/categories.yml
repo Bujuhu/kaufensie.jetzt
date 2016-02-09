@@ -90,6 +90,10 @@
       img: heinrich.jpg
       link: http://www.amazon.de/dp/B003SL0IY6
 
+    - title: Galactic Gal
+      img: ok.gif
+      link: https://play.google.com/store/apps/details?id=com.sinnergyGames.ge.android
+
     - title: Technologie
       img: optimusprime.png
       link: http://youtu.be/Rrh_EwFaZ7I
@@ -97,17 +101,6 @@
     - title: The Mac Way
       img: computerman.jpg
       link: https://youtu.be/i1IqqlW1U4k
-
-
-  - label: Mode & Kleidung
-    items:
-    - title: Bekleidung
-      img: oida.jpg
-      link: http://youtu.be/jTTeGEwzjNE
-
-    - title: Mode
-      img: rocketbeans.png
-      link: http://youtu.be/lcEIkeg5nmA
 
   - label: Freizeit & Entertainment
     items:
@@ -131,6 +124,16 @@
     - title: Teamarbeit
       img: labtocat.png
       link: https://youtu.be/qv_UKAoCwN4
+
+  - label: Mode & Kleidung
+    items:
+    - title: Bekleidung
+      img: oida.jpg
+      link: http://youtu.be/jTTeGEwzjNE
+
+    - title: Mode
+      img: rocketbeans.png
+      link: http://youtu.be/lcEIkeg5nmA
 
   - label: Sonstiges
     items:
