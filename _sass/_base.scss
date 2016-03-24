@@ -76,26 +76,7 @@ a {
 
     &:hover {
         color: $text-color;
-        text-decoration: underline;
-    }
-}
-
-/**
- * Wrapper
- */
-
-.wrapper {
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
-    @extend %clearfix;
-    overflow: hidden;
-
-    @include media-query($on-laptop) {
-        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
+        text-decoration: none;
     }
 }
 
