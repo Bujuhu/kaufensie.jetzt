@@ -9,12 +9,13 @@
       link: http://www.amazon.de/dp/B0044S3CEK
 
     - title: Ein Gartengerät
-      img: wunderharke.png
+      img: wunderharke.jpg
       link: https://youtu.be/esAJuVTuuF8
 
     - title: Bettdecke 2.0
       img: snuggie.jpg
       link: https://youtu.be/2xZp-GLMMJ0
+      class: no-circle
 
     - title: Keksform
       img: rocketbeans.png
@@ -27,6 +28,7 @@
     - title: Schneiden 2.0
       img: schere.png
       link: https://youtu.be/zBSEGqaK79M
+      class: no-circle
 
     - title: Bananensäge
       img: fraktus.jpg
@@ -36,12 +38,13 @@
   - label: Essen & Ernährung
     items:
     - title: Müsli
-      img: muesli.png
+      img: muesli.jpg
       link: http://youtu.be/-tkgWX1td_Y
 
     - title: Barf
       img: barf.png
       link: https://youtu.be/YkgQPOCEeiQ
+      class: no-circle
 
     - title: Smirkey®
       img: fraktus.jpg
@@ -75,7 +78,7 @@
       link: https://youtu.be/61UfGg6sf8I
 
     - title: Kultur
-      img: want.png
+      img: want.jpg
       link: https://youtu.be/COGFDNT4vyc
 
     - title: Dienstleistung
@@ -104,7 +107,7 @@
     items:
     - title: MAGIX DELUXE
       id: magix
-      img: ngh.png
+      img: ngh.jpg
       link: https://youtu.be/bJkZXPtY9vA
 
     - title: Ein Spiel
@@ -116,12 +119,13 @@
       link: http://bit.ly/1dNCbXu
 
     - title: Technologie
-      img: optimusprime.png
+      img: optimusprime.jpg
       link: https://youtu.be/Rrh_EwFaZ7I
 
     - title: The Mac Way
       img: computerman.jpg
       link: https://youtu.be/i1IqqlW1U4k
+      class: no-circle
 
     - title: For Hire
       img: twitter.png
@@ -161,7 +165,7 @@
   - label: Sonstiges
     items:
     - title: Ein Auto
-      img: auto.png
+      img: auto.jpg
       link: https://youtu.be/Rrh_EwFaZ7I
 
     - title: Fanartikel
@@ -169,7 +173,7 @@
       link: https://youtu.be/Lmtmd-DlVM0?t=1m9s
 
     - title: Echt jetzt
-      img: honest.gif
+      img: honest.jpg
       link: https://youtu.be/H9fAuK7WIV4
 
     - title: Bekleidung
@@ -185,6 +189,6 @@
       link: https://youtu.be/Hk3hdu-dB2c
 
     - title: Stop Mobbing
-      img: stop.gif
+      img: stop.jpg
       link: https://youtu.be/eoSudhJJE58
       class: no-circle
