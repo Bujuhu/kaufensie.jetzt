@@ -14,7 +14,6 @@
 $item-border: solid #ddd 1pt;
 
 .item {
-    width: calc(100% - 25px);
     display: inline-block;
     cursor: pointer;
     transition: all .25s ease;
@@ -53,12 +52,24 @@ $item-border: solid #ddd 1pt;
     }
 
 }
-@media (min-width: 500px) {
-    .category {
-      width: 500px;
-      float: left;
-    }
       .item {
-        width: 200px;
+        flex: 1 0 180px;
       }
-}
+
+    .categories {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .category { 
+        flex: 1 1 400px;
+        margin: 20px;
+        display: flex;
+      flex-wrap: wrap;
+       align-items: space-around;
+        align-content: flex-start;
+    }
+    .category >  h2{
+              text-align: center;
+      border-bottom: solid #000 1px;
+      flex: 0 0 100%;
+    }
