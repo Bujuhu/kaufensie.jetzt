@@ -99,3 +99,10 @@ $item-border: solid $item-border-color 1pt;
     background-color: lighten($item-border-color, 5%);
     border-top: $item-border;
 }
+/**
+ * Posts
+ */
+.post {
+   max-width: 800px;
+   margin: 0 auto;
+}
