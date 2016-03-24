@@ -19,3 +19,8 @@
     color: #fff;
   }
 }
+.no-circle .item-img{
+  border-radius: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
