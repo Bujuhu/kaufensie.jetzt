@@ -16,6 +16,7 @@ $item-border: solid #ddd 1pt;
 .item {
     display: inline-block;
     cursor: pointer;
+    -webkit-transition: all .25s ease;
     transition: all .25s ease;
     border: $item-border;
     margin: $spacing-unit/2;
@@ -53,23 +54,47 @@ $item-border: solid #ddd 1pt;
 
 }
       .item {
-        flex: 1 0 180px;
+        -webkit-box-flex: 1;
+        -webkit-flex: 1 0 180px;
+            -ms-flex: 1 0 180px;
+                flex: 1 0 180px;
       }
 
     .categories {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
         display: flex;
-        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
     }
-    .category { 
-        flex: 1 1 400px;
+    .category {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1 1 400px;
+            -ms-flex: 1 1 400px;
+                flex: 1 1 400px;
         margin: 20px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
         display: flex;
-      flex-wrap: wrap;
-       align-items: space-around;
-        align-content: flex-start;
+      -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap;
+       -webkit-box-align: space-around;
+       -webkit-align-items: space-around;
+           -ms-flex-align: space-around;
+               align-items: space-around;
+        -webkit-align-content: flex-start;
+            -ms-flex-line-pack: start;
+                align-content: flex-start;
     }
     .category >  h2{
               text-align: center;
       border-bottom: solid #000 1px;
-      flex: 0 0 100%;
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 100%;
+          -ms-flex: 0 0 100%;
+              flex: 0 0 100%;
     }
