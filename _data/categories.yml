@@ -71,7 +71,7 @@
       link: https://youtu.be/Kx84-5djQCI
 
 
-  - label: Musik und Kunst
+  - label: Musik & Kunst
     items:
     - title: Gute Musik
       img: airhorn.png
@@ -102,6 +102,11 @@
       link: http://bit.ly/1LDCwfj
       class: no-circle
 
+    - title: Dürfen die das?
+      img: pro7.png
+      link: https://youtu.be/b4e4Cr4qUQ8
+      class: no-circle
+
 
   - label: Computer & Technik
     items:
@@ -127,11 +132,15 @@
       link: https://youtu.be/i1IqqlW1U4k
       class: no-circle
 
+    - title: Buy a mac plz
+      img: computerman.jpg
+      link: https://youtu.be/nGOeR1MmVQ8
+      class: no-circle
+
     - title: For Hire
       img: twitter.png
       link: https://youtu.be/vccZkELgEsU
       class: no-circle
-
 
   - label: Freizeit & Entertainment
     items:
@@ -161,6 +170,10 @@
       link: https://youtu.be/Y7vQcYReJp8
       class: no-circle
 
+    - title: Marine Land
+      img: help.jpg
+      link: https://youtu.be/4m3x14uNiiA
+      class: no-circle
 
   - label: Sonstiges
     items:
@@ -192,3 +205,7 @@
       img: stop.jpg
       link: https://youtu.be/eoSudhJJE58
       class: no-circle
+
+    - title: Schon cancer
+      img: blue-ribbon.png
+      link: https://youtu.be/AFNSCc45gDA
